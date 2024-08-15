@@ -61,3 +61,8 @@ The objective of this project is to analyze a suspicious email file (`Email1.eml
 This project involved a comprehensive analysis of a suspicious email in a secure offline environment. The process highlighted the importance of understanding email headers and using tools like Cisco Talos for effective threat intelligence.
 
 ![Screnshot of VM with Thunderbird and Pluma open](https://github.com/user-attachments/assets/04c7b5ac-c2a7-4546-8178-b5cc98efdb27)
+
+![Screenshot of PhishTool from Medium Author jcm3 as I forgot to take my own screenshotm when DOING THE TASK](https://github.com/user-attachments/assets/2337203e-9047-448b-a92d-ef4b44ee9835)
+
+
+
