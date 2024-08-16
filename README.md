@@ -26,7 +26,8 @@ As a SOC (Security Operations Center) Analyst, the task was to analyze multiple 
 - **Action**: Opened `Email1.eml`, `Email2.eml`, and `Email3.eml` using Mozilla Thunderbird and inspected the headers using the Pluma text editor.
 - **Outcome**: Determined the originating IP addresses and noted the number of hops the email took to reach the recipient.
 
-![Email Header Analysis](https://user-images.githubusercontent.com/12345678/123456789-email-header-analysis.png)
+![Email Header Analysis](https://github.com/user-attachments/assets/c6c2f574-4d68-4f7d-96b0-5b5772a0fb90)
+
 
 ### 2. Defang IP Addresses
 - **Objective**: Make the IP addresses safe to share and analyze.
@@ -34,7 +35,7 @@ As a SOC (Security Operations Center) Analyst, the task was to analyze multiple 
 - **Action**: Used CyberChef to defang the IP address `204.93.183.11` from the email headers.
 - **Outcome**: IP address was successfully defanged for further analysis.
 
-![CyberChef Defanging](https://user-images.githubusercontent.com/12345678/123456789-cyberchef-defang.png)
+![CyberChef Defanging](https://github.com/user-attachments/assets/8d68b3b3-d341-409b-9d8c-edf41ebce1f1)
 
 ### 3. Perform IP Address Lookup
 - **Objective**: Identify the owner of the IP address and gather more details.
@@ -42,8 +43,9 @@ As a SOC (Security Operations Center) Analyst, the task was to analyze multiple 
 - **Action**: Looked up the IP address `204.93.183.11` using Cisco Talos Intelligence and DomainTools WHOIS Lookup.
 - **Outcome**: Determined that the IP address belonged to `scnet.net`, associated with `Complete Web Reviews`.
 
-![Cisco Talos Lookup](https://user-images.githubusercontent.com/12345678/123456789-cisco-talos.png)
-![DomainTools WHOIS Lookup](https://user-images.githubusercontent.com/12345678/123456789-domaintools-whois.png)
+![Cisco Talos Lookup](https://github.com/user-attachments/assets/e4d0b246-13c2-461f-a842-4a24b59bc235)
+![DomainTools WHOIS Lookup](https://github.com/user-attachments/assets/ead5ed12-706e-4b8f-91ac-587c7af154ac)
+
 
 ### 4. Analyze Suspicious Attachments
 - **Objective**: Identify and understand the nature of attachments associated with the suspicious emails.
@@ -51,7 +53,7 @@ As a SOC (Security Operations Center) Analyst, the task was to analyze multiple 
 - **Action**: Downloaded and analyzed the attachments from `Email3.eml`, specifically `Sales_Receipt 5606.xls`, using VirusTotal.
 - **Outcome**: Identified the malware associated with the attachment as **Dridex**.
 
-![VirusTotal Analysis](https://user-images.githubusercontent.com/12345678/123456789-virustotal.png)
+![VirusTotal Analysis](https://github.com/user-attachments/assets/12339404-e4ae-4df4-a06d-37ccfb538df7)
 
 ## Summary of Findings
 - **Email1.eml**: Phishing attempt posing as LinkedIn, originating from IP `204.93.183.11`.
